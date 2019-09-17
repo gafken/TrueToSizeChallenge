@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueToSize", "TrueToSize\TrueToSize.csproj", "{0BEB867E-F3B2-4B2B-BFED-9E8E2C4B5907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueToSize", "TrueToSize\TrueToSize.csproj", "{0BEB867E-F3B2-4B2B-BFED-9E8E2C4B5907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueToSize.Entities", "TrueToSize.Entities\TrueToSize.Entities.csproj", "{65826283-B0B2-433F-AC81-9C919312ECC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0BEB867E-F3B2-4B2B-BFED-9E8E2C4B5907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BEB867E-F3B2-4B2B-BFED-9E8E2C4B5907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BEB867E-F3B2-4B2B-BFED-9E8E2C4B5907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65826283-B0B2-433F-AC81-9C919312ECC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65826283-B0B2-433F-AC81-9C919312ECC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65826283-B0B2-433F-AC81-9C919312ECC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65826283-B0B2-433F-AC81-9C919312ECC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
