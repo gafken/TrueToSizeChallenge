@@ -6,10 +6,12 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using TrueToSize.Entities;
 
 namespace TrueToSize
 {
@@ -25,7 +27,11 @@ namespace TrueToSize
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var configurationSetting = new ConfigurationBuilder().Build();
+            services.AddSingleton(configurationSetting);
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddDbContextPool<TrueToSizeContext>(options => options.UseSqlServer(configurationSetting.GetConnectionString("DataAccessPostgreSqlProvider")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

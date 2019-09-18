@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueToSize", "TrueToSize\TrueToSize.csproj", "{0BEB867E-F3B2-4B2B-BFED-9E8E2C4B5907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueToSize.Entities", "TrueToSize.Entities\TrueToSize.Entities.csproj", "{65826283-B0B2-433F-AC81-9C919312ECC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueToSize.Entities", "TrueToSize.Entities\TrueToSize.Entities.csproj", "{65826283-B0B2-433F-AC81-9C919312ECC7}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C7AE9151-43E9-42FF-BD47-1E5AA049144D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{65826283-B0B2-433F-AC81-9C919312ECC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65826283-B0B2-433F-AC81-9C919312ECC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65826283-B0B2-433F-AC81-9C919312ECC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AE9151-43E9-42FF-BD47-1E5AA049144D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AE9151-43E9-42FF-BD47-1E5AA049144D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AE9151-43E9-42FF-BD47-1E5AA049144D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AE9151-43E9-42FF-BD47-1E5AA049144D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
